@@ -1,0 +1,8 @@
+.primary {
+    color: white;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #3f51b5;
+  }

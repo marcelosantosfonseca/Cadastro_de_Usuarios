@@ -1,0 +1,47 @@
+table {
+    width: 100%;
+  }
+
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    margin: 10px;
+
+  }
+
+.bt-add {
+  float:right;
+  padding: 1px 50px;
+    
+  margin: 10px 10px;  
+  text-align: center;   
+}
+
+
+.mail-icon{  
+  color: rgb(145, 145, 145);
+  vertical-align: middle;
+  font-size: 20px;
+}
+
+.table-button-actions{
+  justify-content: space-between
+}
+
+.button-action{
+  margin: 5px 15px; 
+  padding: 0 90px;
+
+  
+}
+
+.table-button-action{
+  margin: 5px 5px; 
+  padding: 1px 90px;
+  display: inline-block;
+  align-items: flex-start;
+  
+ 
+  justify-content: space-between;
+}

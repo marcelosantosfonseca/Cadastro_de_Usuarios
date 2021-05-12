@@ -1,0 +1,16 @@
+<div class="main-div"> 
+  <mat-card  class="main-card" *ngIf="cadastro" >
+      <form autocomplete="off" novalidate [formGroup]="cadastro" (ngSubmit)="submit()" (ngReset)="reiniciarForm()" >
+        <mat-card-content class="content" >
+          <msf-input-text class="contents" titulo="Nome *" controlName="name" [formGroup]="cadastro"></msf-input-text>
+          <msf-input-text titulo="Link Foto" controlName="photo" [formGroup]="cadastro" ></msf-input-text>
+          <msf-input-text titulo="e-mail" controlName="email" [formGroup]="cadastro"></msf-input-text>
+          <msf-input-textarea titulo="Contato *" controlName="contato" [formGroup]="cadastro"></msf-input-textarea>        
+        </mat-card-content>
+        <mat-card-actions>
+          <button type="submit" color="primary" mat-raised-button>Salvar</button>
+          <button type="reset" color="warn" mat-raised-button>Cancelar</button>
+        </mat-card-actions>
+      </form>
+  </mat-card>
+</div> 

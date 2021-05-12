@@ -1,27 +1,38 @@
-# CRUDUsuarios
+#### Exercício referente a aula Desenvolvendo SPA com Angular.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.4.
+#### Bootcamp Avanade Angular Developer.
 
-## Development server
+Esse é o repositório da aula sobre Single Page Application, na qual temos o desafio de reproduzir um Cadastro de Usuários, conforme foto abaixo, utilizando Angular.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+<img src="https://github.com/marcelosantosfonseca/Cadastro_de_Usuarios/blob/master/screens_with_tests/Desafio.jpg" />
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+O CRUD que elaboramos tem como base a Tabela com checkbox oferecida pelo Angular Material para listagem dos usuários. Nesta tabela foi adicionado botões para cadastrar, editar e excluir. Este último é habilitado após clicar no checkbox do usuário que se deseja excluir, com isso, evitando excluir o usuário errado.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Foram inseridos paginação e filtragem.
 
-## Running unit tests
+A interface de inserir usuários é reaproveitada para editar usuários quando necessário.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+A data e hora do cadastro são inseridas automaticamente.
 
-## Running end-to-end tests
+Para o cadastro foi desenvolvidas validações de campos e a inserção de uma foto padrão para quando o usuário não tiver inserido sua foto.
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Utilizamos o JSONServer (json-server --watch src/assets/db/usuarios.json --port 600) para podermos avaliar e testar as rotas do aplicativo.
 
-## Further help
+Segue foto da SPA desenvolvida.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+<img src="https://github.com/marcelosantosfonseca/Cadastro_de_Usuarios/blob/master/screens_with_tests/Teste1.jpg" />
+
+
+
+Elaborado com:
+
+Angular: 11.2.10
+
+Node: 14.16.0
+
+rxjs: 6.6.7
+
+typescript: 4.1.5

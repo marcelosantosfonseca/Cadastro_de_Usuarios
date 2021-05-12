@@ -1,0 +1,44 @@
+{
+  "usuarios": [
+    {
+      "photo": "https://media-exp1.licdn.com/dms/image/C4D03AQECNzJKFo4u1w/profile-displayphoto-shrink_200_200/0/1520428184204?e=1623283200&v=beta&t=jy2LLXAOasgN6hXUP9tUuSq7xwXJSow29hidF5nScXk",
+      "name": "Marcelo Santos Fonseca",
+      "email": "marcelosantosfonseca@gmail.com",
+      "contato": "https://www.linkedin.com/in/marcelo-santos-fonseca-9b18a680/",
+      "Added_on": "02.25.2004 10:19 pm",
+      "id": 1
+    },
+    {
+      "photo": null,
+      "name": "Rui Barbosa",
+      "email": "Rui Barbosa@exemplo.com",
+      "contato": "Rui_Brbs@exemplo",
+      "Added_on": "2021-05-10T22:00:44.717Z",
+      "id": 2
+    },
+    {
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Gisele_Bundchen_2018_clear_original_%28cropped%29.jpg/720px-Gisele_Bundchen_2018_clear_original_%28cropped%29.jpg",
+      "name": "Gc Bundchen",
+      "email": "gcb@exemplo.com",
+      "contato": "@insta_gcb",
+      "Added_on": "2021-05-10T22:21:24.754Z",
+      "id": 3
+    },
+    {
+      "photo": null,
+      "name": "Macarena Silva",
+      "email": "macasil@gmail.com",
+      "contato": "Whatsapp: +5511987654321\n",
+      "Added_on": "2021-05-10T22:25:56.568Z",
+      "id": 4
+    },
+    {
+      "photo": null,
+      "name": "Mirian Ribeiro",
+      "email": "mimi@exemplo.com",
+      "contato": "mr@exemplo.com.br",
+      "Added_on": "2021-05-10T22:33:09.935Z",
+      "id": 5
+    }
+  ]
+}
