@@ -22,8 +22,8 @@ import { TableService } from '../table.service';
 })
 
 export class ListaUsuariosComponent implements OnInit, AfterViewInit {
-  readonly semFoto =  "https://github.com/marcelosantosfonseca/Cadastro_de_Usuarios/blob/master/src/assets/img/avatar-02.jpg";
-  //"https://cdn.pixabay.com/photo/2015/04/10/08/36/picture-frame-715870_960_720.jpg"
+  readonly semFoto =  "https://cdn.pixabay.com/photo/2015/04/10/08/36/picture-frame-715870_960_720.jpg";
+  //"https://github.com/marcelosantosfonseca/Cadastro_de_Usuarios/blob/master/screens_with_tests/Teste1.jpg";
 
   // Data table with sorting, pagination, and filtering.   
   @ViewChild(MatPaginator) paginator!: MatPaginator;

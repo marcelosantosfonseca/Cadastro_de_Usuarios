@@ -4,7 +4,7 @@
 
 Esse é o repositório da aula sobre Single Page Application, na qual temos o desafio de reproduzir um Cadastro de Usuários, conforme foto abaixo, utilizando Angular.
 
-<img src="https://github.com/marcelosantosfonseca/Cadastro_de_Usuarios/blob/master/screens_with_tests/Desafio.jpg" />
+<img src="https://github.com/marcelosantosfonseca/Cadastro_de_Usuarios/blob/master/screens_with_tests/Desafio.jpg" >
 
 
 
@@ -23,16 +23,4 @@ Utilizamos o JSONServer (json-server --watch src/assets/db/usuarios.json --port 
 Segue foto da SPA desenvolvida.
 
 
-<img src="https://github.com/marcelosantosfonseca/Cadastro_de_Usuarios/blob/master/screens_with_tests/Teste1.jpg" />
-
-
-
-Elaborado com:
-
-Angular: 11.2.10
-
-Node: 14.16.0
-
-rxjs: 6.6.7
-
-typescript: 4.1.5
+<img src="https://github.com/marcelosantosfonseca/Cadastro_de_Usuarios/blob/master/screens_with_tests/teste.jpg" >
